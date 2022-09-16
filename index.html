@@ -381,10 +381,12 @@
                     </ul>
             </div>
             <div class="subscription">
-                <h2>Підпишіться на розсилку</h2>
+                <h2 class="subscription-title">Підпишіться на розсилку</h2>
                 <form class="subscription-form" name="subscription-form">
-                    <input type="email" name="" placeholder="email">
-                    <button type="submit">Підпишись
+                    <label for="subscription-email"></label>
+                    <input id="subscription-email" class="input-subscription" type="email" placeholder="E-mail">
+                    <button class="btn-subscription" type="submit">
+                        <span class="span-subscription">Підпиcатися</span>
                         <svg width="24" height="24">
                             <use href="./images/sprite.svg#send"></use>
                         </svg>
@@ -425,7 +427,7 @@
                     </label>
                     <label class="form-field">
                         <span class="form-label">Коментар</span>
-                        <textarea class="form-comment" name="" rows="5" placeholder="Введіть текст"></textarea>
+                        <textarea class="form-comment" name="form-comment" rows="5" placeholder="Введіть текст"></textarea>
                     </label>
                 </div>
 
