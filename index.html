@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -44,21 +45,21 @@
     </header>
 
     <main>
-            <!-- герой  -->
+            <!-- hero  -->
             <section class="hero">
                 <div class="container">
-                    <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                    <button type="button" class="button primary" data-modal-open>Замовити послугу</button>
+                    <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+                    <button type="button" class="button" data-modal-open>Замовити послугу</button>
                 </div>
             </section>
             
-            <!-- оообливості -->
-            <section class="section features">
+            <!-- features -->
+            <section class="section no-padding">
                 <div class="container">
-                    <h2 class="section-title hide">Особливості</h2>
-                    <ul class="features-list list">
-                        <li class="features-item">
-                            <div class="feature-icon">
+                    <h2 class="section__title hide">Особливості</h2>
+                    <ul class="features list">
+                        <li class="features__item">
+                            <div class="features__icon">
                                 <svg width="70" height="70">
                                     <use href="./images/sprite.svg#antenna"></use>
                                 </svg>
@@ -66,8 +67,8 @@
                             <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
                             <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                         </li>
-                        <li class="features-item">
-                            <div class="feature-icon">
+                        <li class="features__item">
+                            <div class="features__icon">
                                 <svg width="70" height="70">
                                     <use href="./images/sprite.svg#clock"></use>
                                 </svg>
@@ -75,8 +76,8 @@
                             <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
                             <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                         </li>
-                        <li class="features-item">
-                            <div class="feature-icon">
+                        <li class="features__item">
+                            <div class="features__icon">
                                 <svg width="70" height="70">
                                     <use href="./images/sprite.svg#diagram"></use>
                                 </svg>
@@ -84,8 +85,8 @@
                             <h3 class="title">ПЛАНУВАННЯ</h3>
                             <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
                         </li>
-                        <li class="features-item">
-                            <div class="feature-icon">
+                        <li class="features__item">
+                            <div class="features__icon">
                                 <svg width="70" height="70">
                                     <use href="./images/sprite.svg#astronaut"></use>
                                 </svg>
@@ -100,24 +101,24 @@
             <!-- чим ми займаємось -->
             <section class="section">
                 <div class="container">
-                    <h2 class="section-title">Чим ми займаємося</h2>
-                    <ul class="list about">
-                        <li class="describe">
-                            <div class="thumb">
+                    <h2 class="section__title">Чим ми займаємося</h2>
+                    <ul class="describe list">
+                        <li class="describe__item">
+                            <div class="describe__thumb">
                                 <img class="image" src="./images/photo1.jpeg" alt="верстання вебсторінки" width="370">
-                                <p class="label">Десктопні додатки</p>
+                                <p class="describe__text">Десктопні додатки</p>
                             </div>
                         </li>
-                        <li class="describe">
-                            <div class="thumb">
+                        <li class="describe__item">
+                            <div class="describe__thumb">
                                 <img class="image" src="./images/photo2.jpeg" alt="створення дизайну сайта" width="370">
-                                <p class="label">Мобільні додатки</p>
+                                <p class="describe__text">Мобільні додатки</p>
                             </div>
                         </li>
-                        <li class="describe">
-                            <div class="thumb">
+                        <li class="describe__item">
+                            <div class="describe__thumb">
                                 <img class="image" src="./images/photo3.jpeg" alt="створення графіки" width="370">
-                                <p class="label">Дизайнерські рішення</p>
+                                <p class="describe__text">Дизайнерські рішення</p>
                            </div>
                         </li>
                     </ul>
@@ -127,7 +128,7 @@
             <!-- наша команда -->
             <section class="section team">
                 <div class="container">
-                    <h2 class="section-title">Наша команда</h2>
+                    <h2 class="section__title">Наша команда</h2>
                     <ul class="team-list list">
                         <li class="team-card">
                             <img src="./images/photo4.jpeg" alt="член команди - Ігор" width="270">
@@ -284,7 +285,7 @@
             <!-- клієнти -->
             <section class="section">
                 <div class="container">
-                    <h2 class="section-title">Постійні клієнти</h2>
+                    <h2 class="section__title">Постійні клієнти</h2>
                     <ul class="clients list">
                         <li class="clients-item">
                             <a class="client-link" href="">
@@ -336,7 +337,7 @@
     <footer class="footer">
         <div class="container bottom">
             <div class="column-address">
-                <a href="./index.html" class="second-logo">Web<span class="footer-logo">Studio</span></a>
+                <a href="./index.html" class="logo">Web<span class="footer-logo">Studio</span></a>
                 <address>
                     <ul class="contact-footer list">
                         <li class="footer-li"><a
